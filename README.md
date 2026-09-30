@@ -6,6 +6,7 @@ Senior Software Engineer based in Zurich with 10+ years shipping software across
 
 - **Agentic AI**: autonomous agents with real tool access, multi-agent networks, MCP servers, custom Claude Code skills/hooks/plugins, self-hosted agent runtimes
 - **Agent Safety**: isolation enforced in code rather than in prompts, meaning read-only by construction, fixed tool interfaces, identity the model can't pass as an argument, reversible PII tokenization
+- **Agent-made product videos**: agents that take a codebase to a narrated, branded demo film on their own, from local bootstrap with synthetic data to voice-over in any language, capture, motion design and mastering
 - **RAG Systems**: retrieval-augmented generation, vector search, knowledge bases, AI-powered document analysis
 - **AI Vision Pipelines**: camera streams with real-time Claude Vision analysis, intrusion detection, PDF data extraction
 - **AI for Business**: warehouse performance analytics, supply chain optimization, construction cost control, AI-powered recommendations
@@ -18,6 +19,7 @@ Senior Software Engineer based in Zurich with 10+ years shipping software across
 |---------|-------------|
 | **[llm-privacy](https://github.com/patrikherak/llm-privacy)** | Agent Skill for reversible PII tokenization. Masks names, e-mails and phone numbers before the model sees them, restores them in the final answer. Deterministic, multilingual, zero dependencies |
 | **[hermes-llm-privacy](https://github.com/patrikherak/hermes-llm-privacy)** | The same engine as a Hermes Agent gateway plugin, so masking and restoration happen automatically around every model call |
+| **[ai-demo-studio](https://github.com/patrikherak/ai-demo-studio)** | Agent skills and scripts that turn any web project, from a folder or a git URL, into a narrated, branded product film: isolated bootstrap with synthetic data, voice-over in any language (ElevenLabs, OpenAI or offline), full-quality Playwright capture, 3D device shots, animated infographics, music and mastering, produced with one command |
 
 ## Projects
 
